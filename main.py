@@ -42,6 +42,13 @@ class WheaterApp(QWidget):
         self.setLayout(vbox)
 
 
+        self.city_label.setAlignment(Qt.AlignCenter)
+        self.city_input.setAlignment(Qt.AlignCenter)
+        self.temerature_label.setAlignment(Qt.AlignCenter)
+        self.emoji_label.setAlignment(Qt.AlignCenter)
+        self.description_label.setAlignment(Qt.AlignCenter)
+
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     weather_app = WheaterApp()
